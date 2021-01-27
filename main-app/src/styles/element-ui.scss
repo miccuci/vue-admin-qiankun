@@ -1,0 +1,55 @@
+
+.el-button--text {
+  font-size: 12px;
+  padding: 0px !important;
+}
+.el-button.delete {
+  color: #e2231a;
+}
+.el-button.view {
+  color: #2d5afa;
+}
+.el-button.edit {
+  color: #f5a623;
+}
+
+// 弹出层
+.el-dialog__header {
+  background: rgba(90, 123, 239, 0.12);
+}
+.el-dialog__headerbtn {
+  font-size: 18px;
+}
+.el-dialog__body{
+  max-height: calc(100vh - 160px);
+  overflow: auto;
+}
+
+.el-table th{
+  background-color:#F2F2F2;
+  color: #1D1D1D;
+}
+
+// 启用停用switch
+.status{
+  .el-switch__label {
+    position: absolute;
+    margin: 0;
+    display: none;
+    color: #fff !important;
+  }
+  .el-switch__label--left {
+    z-index: 9;
+    left: 25px;
+  }
+  .el-switch__label--right {
+    z-index: 9;
+    left: 9px;
+  }
+  .el-switch__label.is-active {
+    display: block;
+  }
+  .el-switch__core{
+    width:56px !important;
+  }
+}

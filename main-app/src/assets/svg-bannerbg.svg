@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2560px" height="60px" viewBox="0 0 2560 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>矩形</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.5" width="2560" height="60"></rect>
+        <linearGradient x1="39.2416131%" y1="42.0755857%" x2="89.3876461%" y2="77.7518087%" id="linearGradient-3">
+            <stop stop-color="#5A7BEF" offset="0%"></stop>
+            <stop stop-color="#2660F7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="39.2416131%" y1="42.0755857%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#5A7BEF" offset="0%"></stop>
+            <stop stop-color="#2660F7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="10.5480121%" y1="16.2086648%" x2="76.5687053%" y2="5.59780869%" id="linearGradient-5">
+            <stop stop-color="#043ED6" offset="0%"></stop>
+            <stop stop-color="#2660F7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="【门诊医生站】患者banner" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1患者banner全展示样式">
+            <g id="banner" transform="translate(0.000000, -1.000000)">
+                <g id="矩形" transform="translate(0.000000, 0.500000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#2660F7" xlink:href="#path-1"></use>
+                    <rect fill="url(#linearGradient-3)" mask="url(#mask-2)" x="-13" y="-398.5" width="442" height="442" rx="221"></rect>
+                    <rect id="矩形-copy-16" fill-opacity="0.5" fill="url(#linearGradient-4)" mask="url(#mask-2)" x="2265" y="-43.5" width="442" height="442" rx="221"></rect>
+                    <rect id="矩形-copy-14" fill="url(#linearGradient-5)" mask="url(#mask-2)" x="858" y="13.5" width="208" height="208" rx="104"></rect>
+                    <rect id="矩形-copy-17" fill-opacity="0.8" fill="url(#linearGradient-5)" mask="url(#mask-2)" x="337" y="-147.5" width="208" height="208" rx="104"></rect>
+                    <rect id="矩形-copy-15" fill-opacity="0.8" fill="url(#linearGradient-4)" mask="url(#mask-2)" x="1411" y="-147.5" width="208" height="208" rx="104"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

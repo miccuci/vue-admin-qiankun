@@ -1,0 +1,21 @@
+{
+  "name": "examples",
+  "license": "MIT",
+  "scripts": {
+    "install:all": "yarn install:main && yarn install:foo && yarn install:bar",
+    "install:main": "cd main-app && yarn",
+    "install:foo": "cd foo-app && yarn",
+    "install:bar": "cd bar-app && yarn",
+    "serve:all": "concurrently \"yarn serve:main\" \"yarn serve:foo\" \"yarn serve:bar\"",
+    "serve:main": "cd main-app && yarn serve",
+    "serve:foo": "cd foo-app && yarn serve",
+    "serve:bar": "cd bar-app && yarn serve",
+    "build:all": "concurrently \"yarn build:main\" \"yarn build:foo\" \"yarn build:bar\"",
+    "build:main": "cd main-app && yarn build",
+    "build:foo": "cd foo-app && yarn build",
+    "build:bar": "cd bar-app && yarn build"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2"
+  }
+}
